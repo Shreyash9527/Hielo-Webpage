@@ -1,0 +1,273 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(214, 205, 205);
+}
+
+/* Navigation starts */
+#my-navigation{
+    background: none;
+    border: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0px;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+
+#my-navigation .navbar-header{
+    float: none;
+}
+
+#my-navigation .navbar-right{
+    float: left !important;
+}
+
+#my-navigation .icon-bar-left{
+    float: left;
+}
+
+#my-navigation .icon-bar{
+    background-color: white;
+}
+
+#my-navigation .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: white;
+}
+
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: white;
+}
+
+/* carousel starts here */
+
+.my-container{
+    padding: 0px;
+    color: white;
+}
+
+.carousel .item{
+    background-image: url("../img/slide01.jpg");
+    width: 100vw;    /*viewposrt width*/
+    height: 100vh;   /*viewposrt height*/
+    background-size: cover;
+}
+
+.carousel .item-2{
+    background-image: url("../img/slide02.jpg");
+}
+
+.carousel .item-3{
+    background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item-4{
+    background-image: url("../img/slide04.jpg");
+}
+
+.carousel .item-4{
+    background-image: url("../img/slide05.jpg");
+}
+
+/* banner text starts  */
+
+.banner{
+    text-align: center;
+    width: 45%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.banner hr{
+    width: 50%;
+}
+
+.banner p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.banner h1{
+    font-size: 100px;
+}
+
+/* two section starts  */
+
+.two-section{
+    padding: 70px 0px;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section .left, .two-section .right{
+    background-color: white;
+    text-align: center;
+    width: 95%;
+}
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: black;
+    weight : 0.5px;
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300 ;
+    margin-top: 8px;
+}
+
+.two-section p{
+    text-align: left;
+    padding: 25px 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.two-section button{
+    width: 130px;
+    height: 40px;
+    margin: 30px 0px;
+}
+
+.two-section .right{
+    margin-left: 5%;
+}
+
+/* quotes starts */
+
+.full-quote{
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 100px 0px;
+    margin-top: 50px;
+}
+
+.full-quote p, .four-img-section p{
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.four-img-section p{
+    color: black;
+}
+
+.full-quote h5, .four-img-section h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+/* four sections starts  */
+
+.four-img-section{
+    padding: 100px 0px;
+}
+
+.four-img-section h5{
+    margin-bottom: 100px;
+}
+
+.four-img-section img{
+    width: 95%;
+    float: left;
+    margin-bottom: 10%;
+    border: 10px solid white;
+}
+
+.four-img-section .left{
+    margin-left: 5%;
+}
+
+/* footer starts */
+.footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.footer a{
+    color: grey;
+    padding-left: 15px;
+}
+
+.footer a:hover{
+    color: greenyellow;
+}
+
+/* media qury starys */
+@media (max-width:768px){
+    .my-collapse{
+        padding-right: 15px;
+        padding-left: 15px;
+        border-top: 1px solid white;
+}
+
+    .full-quote p, .four-img-section p{
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+
+    .full-quote hr, .four-img-section hr{
+        width: 60%;
+    }
+
+    .full-quote h5, .four-img-section h5{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:962px){
+    .banner p{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .banner h1{
+        font-size: 60px;
+    }
+
+    .two-section .left, .two-section .right{
+        width: 100%;
+    }
+
+    .two-section .right{
+        margin-left: 0px;
+    }
+
+    .four-img-section img{
+        width: 100%;
+        margin: 15px 0px auto;
+        border: 5px solid white;
+    }
+}
